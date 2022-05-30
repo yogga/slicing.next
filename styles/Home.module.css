@@ -56,6 +56,14 @@
   font-size: 1.5rem;
 }
 
+.profil {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
 .code {
   background: #fafafa;
   border-radius: 5px;
