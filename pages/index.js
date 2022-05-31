@@ -6,7 +6,7 @@ import Button from '../components/Button';
 export default function Home() {
   return (
     <>
-      <div className="bg-blue-500 ">
+      <div className="bg-hero">
         <div className="container mx-auto">
           <div className="flex items-center">
             <div className="w-3/12 ">
