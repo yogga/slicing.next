@@ -1,9 +1,7 @@
 import Logo from '../components/Logo';
 import Nav from '../components/Nav';
 import Button from '../components/Button';
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/Home.module.css';
+
 
 export default function Home() {
   return (
@@ -18,16 +16,17 @@ export default function Home() {
               <Nav/>
             </div>
             <div className="w-3/12 text-right">
-              <Button>Kontak</Button>
+              <Button variant="outline-yellow">Kontak</Button>
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-3xl text-white font-semibold font-mono">
-              Saya seorang front-end engineer, rpa engineer, dan juga seo engineer
+            <h1 className="text-3xl text-white font-semibold font-mono w-8/12 mx-auto">
+              Saya seorang front-end engineer, rpa engineer, wordpress engineer dan juga seo engineer
             </h1>
-            <p className="text-white text-opacity-60 text-lg">
-              Saya juga suka hiking, futsal, dan bermain game.
+            <p className="text-white text-opacity-60 text-lg w-4/12 mx-auto mt-6">
+              Saya juga suka hiking, futsal, swimming, basket dan bermain game.
             </p>
+            <Button variant="yellow">Pelajari</Button>
           </div>
         </div>
       </div>
