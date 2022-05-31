@@ -26,7 +26,7 @@ export default function Home() {
             <p className="text-white text-opacity-60 text-lg w-4/12 mx-auto mt-6">
               Saya juga suka hiking, futsal, swimming, basket dan bermain game.
             </p>
-            <Button variant="yellow">Pelajari</Button>
+            <Button variant="yellow" className="mt-10">Pelajari</Button>
           </div>
         </div>
       </div>
